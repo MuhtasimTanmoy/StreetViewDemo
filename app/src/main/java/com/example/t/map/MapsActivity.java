@@ -16,8 +16,7 @@ import android.support.v7.app.AppCompatActivity;
  */
 public class MapsActivity extends FragmentActivity implements OnStreetViewPanoramaReadyCallback {
 
-    // George St, Sydney
-    private static final LatLng SYDNEY = new LatLng(-33.87365, 151.20689);
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
