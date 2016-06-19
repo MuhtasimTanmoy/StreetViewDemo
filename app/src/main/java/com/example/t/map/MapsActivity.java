@@ -61,7 +61,7 @@ public class MapsActivity extends FragmentActivity implements OnStreetViewPanora
         this.panorama = panorama;
         this.panorama.setPosition(new LatLng(23.756959, 90.389930));
         handler.postDelayed(updatePosTask, 4000);
-        //panorama.setStreetNamesEnabled(false);
+        panorama.setStreetNamesEnabled(false);
     }
 
     private void updateCameraPosition() {
